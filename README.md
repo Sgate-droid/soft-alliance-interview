@@ -31,7 +31,7 @@ sudo apt install postgresql postgresql-contrib -y
    sudo nano /etc/postgresql/<version>/main/pg_hba.conf
    ```
 
-   Add the following lines (replace `<version>` with your PostgreSQL version, e.g., `14`):
+   Add the following lines (replace `<version>` with your PostgreSQL version, e.g., `17`):
 
    ```plaintext
    host    replication     replicator      <node1_ip>/32        md5
